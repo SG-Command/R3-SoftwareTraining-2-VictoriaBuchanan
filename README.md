@@ -2,6 +2,9 @@
 
 <h3>MILESTONE 1 - MAZE GENERATION CODE</h3>
 
+<h4><strong>Image 1 - Generated maze for a 11 by 11 grid</strong></h4>
+<img src="https://github.com/SG-Command/R3-SoftwareTraining-2-VictoriaBuchanan/blob/main/photos/MazeN11.JPG" width="600" height="600">
+
 <p>The code in <strong>Maze.py</strong> creates a maze in a 800x800 pixel grid with n rows and columns.  The program uses pygame to display the maze and runs on python2.  
 The maze is generated using a Dept-first search recursive backtracker algorithm. The steps in this algorithm are as follows:</p>
 
