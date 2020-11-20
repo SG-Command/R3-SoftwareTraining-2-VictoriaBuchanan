@@ -9,7 +9,7 @@ import random
 # GLOBAL VARIABLES
 #--------------------------------------------------------------------------------------------
 # Change this variable to set the size of the grid
-n = 20
+n = 50
 # Screen Resolution
 WIDTH = 800
 HEIGHT = 800
