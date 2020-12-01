@@ -125,8 +125,10 @@ for i in solution:
 # The array that contains the solution is called solution[], use this for the TCP Stream.
 #---------------------------------------------------------------------------------------------------------------
 # IMPORTS
-import socket
 import datetime
+import socket
+import time
+
 
 # FUNCTIONS - in alphabetical order
 def downOnScreen(lastMovement):
@@ -226,7 +228,7 @@ while True:
                 msg = leftOnScreen(lastMovement)
                 clientSocket.send(bytes(msg.decode("utf-8")))
                 lastMovement = "LEFT"
-
+        time.sleep(1) 
 #---------------------------------------------------------------------------------------------------------------
 # END OF TCP CODE
 #---------------------------------------------------------------------------------------------------------------
