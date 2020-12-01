@@ -127,8 +127,6 @@ for i in solution:
 # IMPORTS
 import datetime
 import socket
-import time
-
 
 # FUNCTIONS - in alphabetical order
 def downOnScreen(lastMovement):
