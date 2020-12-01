@@ -35,4 +35,5 @@
 
 <h3>MILESTONE 2 - TCP COMMAND STREAM</h3>
 
-<p>To be added later.</p>
+<p>The server for the TCP commands is in the <strong>Maze2.py</strong> file. The client side of the TCP commands is in the <strong>Client.py</strong> file. Similar to the 
+maze generating file the programs should be accessed using python2 (not python3). One thing to note about the TCP Command Stream is that each string sent is 54 characters long (which means that if any of these strings differ in length from that amount the formatting will look funny when it prints the strings sent on the client side.)</p>
